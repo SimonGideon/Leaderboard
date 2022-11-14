@@ -23,7 +23,7 @@ Run Webpack
     $ npm run start #this will launch the webpack
 ```
 Open in Browser
-```$ open dist/index.html
+```$ npm start #this runs the webpack and also opens on browser on default port
 ```
 
 *🎉Congratulations you're done*✨
