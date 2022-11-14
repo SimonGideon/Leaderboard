@@ -12,20 +12,18 @@
 - Javascript
 - GitHub Actions
 - Webpack
+# Getting Started
+## SetUp
+Clone this repository
+```
 
-## ✈️ [Launch]()
-
-## Getting Started
-
-**Setting up this project locally**
-> ## How should it be tested
-> Clone the repository
-> 
-> ```
-> git clone https://github.com/SimonGideon/webpack.git
-> ```
-> 
-> Navigate to the folder
+```
+Run Webpack
+```
+```
+Open in Browser
+```
+```
 
 *🎉Congratulations you're done*✨
 
@@ -48,7 +46,8 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-
+## Akcnowledgement
+Thank you [@SimonGideon](https://github.com/SimonGideon) for preparing this set and also making it available in for everyone
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
