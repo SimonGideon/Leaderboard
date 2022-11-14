@@ -2,7 +2,7 @@
 <img src="https://webpack.js.org/site-logo.1fcab817090e78435061.svg"  width=80>
 
 
-# webpack
+# Leaderboard 🏢
 
 > Template for Webpack setup
 
