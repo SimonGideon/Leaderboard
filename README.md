@@ -15,15 +15,18 @@
 # Getting Started
 ## SetUp
 Clone this repository
-```$ git clone https://github.com/SimonGideon/Leaderboard.git
-    $ cd Leaderboard
+```
+$ git clone https://github.com/SimonGideon/Leaderboard.git
+$ cd Leaderboard
 ```
 Run Webpack
-```$ npm install
-    $ npm run start #this will launch the webpack
 ```
-Open in Browser
-```$ open dist/index.html
+$ npm install
+$ npm run start #this will launch the webpack
+```
+⚠️⚠️ Open in Browser
+```
+$ npm start
 ```
 
 *🎉Congratulations you're done*✨
