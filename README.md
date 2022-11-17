@@ -4,7 +4,7 @@
 
 # Leaderboard 🏢
 
-> Template for Webpack setup
+This Project Creates displays scores from an API obtain on a game played.
 
 ## 🗼Built With
 
@@ -26,7 +26,7 @@ $ npm run start #this will launch the webpack
 ```
 ⚠️⚠️ Open in Browser
 ```
-$ npm start
+$ npm run start
 ```
 
 *🎉Congratulations you're done*✨
