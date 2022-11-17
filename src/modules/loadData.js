@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 // Retrieve the scores from the API and show them on the page.
 
 const scores = document.querySelector('#dispaly-section');
@@ -6,7 +7,7 @@ let gamesArray = [];
 
 const renderGames = () => {
   let html = '';
-  // eslint-disable-next-line no-restricted-syntax
+
   for (const game of gamesArray) {
     html += `<li class="score-list">${game.user}: ${game.score}</li>`;
   }
