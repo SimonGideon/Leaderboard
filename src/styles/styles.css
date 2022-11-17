@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -6,18 +7,20 @@
 
 body {
   background: rgb(108, 100, 211);
-  background: linear-gradient(
-    90deg,
-    rgba(108, 100, 211, 1) 0%,
-    rgba(214, 223, 235, 1) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      rgba(108, 100, 211, 1) 0%,
+      rgba(214, 223, 235, 1) 100%
+    );
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
 #actions {
   display: flex;
-  gap: 1.2%;
+  align-items: center;
+  gap: 10%;
 }
 
 #main-body {
@@ -34,7 +37,6 @@ body {
   gap: 15%;
   margin-left: 20px;
 }
-
 
 #dispaly-section,
 #form {
@@ -55,6 +57,7 @@ li:nth-child(even) {
 
 h1 {
   margin-bottom: 20px;
+  font-size: 1.5rem;
 }
 
 input {
@@ -70,14 +73,13 @@ input {
   cursor: pointer;
   background-color: #6c64d3;
   width: 50%;
-  height: 30px;
   color: #f5f7f7;
   font-weight: 500;
   border: 1px solid #6c64d3;
   border-radius: 20px;
   height: 40px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  transition: transform .2s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+  transition: transform 0.2s;
 }
 
 button:hover {
@@ -85,14 +87,11 @@ button:hover {
   font-weight: 500;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase;
   font-size: 1rem;
   color: #4b4b4b;
-}
-
-h1 {
-  font-size: 1.5rem;
 }
 
 .scored {
