@@ -1,10 +1,14 @@
-const scores = document.getElementById('dispaly-section');
-let gamesArr = [];
-const renderGame = () => {
+// Retrieve the scores from the API and show them on the page.
+
+const scores = document.querySelector('#dispaly-section');
+
+let gamesArray = [];
+
+const renderGames = () => {
   let html = '';
   // eslint-disable-next-line no-restricted-syntax
-  for (const game of gamesArr) {
-    html += `<li>${game.user}: ${game.score}</li>`;
+  for (const game of gamesArray) {
+    html += `<li class="score-list">${game.user}: ${game.score}</li>`;
   }
   if (scores !== null) {
     scores.innerHTML = html;
@@ -12,11 +16,10 @@ const renderGame = () => {
 };
 
 const getScores = async () => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/:amHupOnbIsrMjLaQ53nR/scores/');
-
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/:u06lzZuHDEVnvjfd4K1F/scores/');
   const data = await response.json();
-  gamesArr = data.result;
-  renderGame();
+  gamesArray = data.result;
+  renderGames();
 };
 
 export default getScores;
