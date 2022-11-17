@@ -1,8 +1,7 @@
 import components from './components.js';
 // styles
 import './styles/styles.css';
-import fetchAPI from './modules/newGame';
 
-fetchAPI();
+import getScores from './modules/loadData';
 
 document.body.appendChild(components());
