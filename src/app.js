@@ -8,7 +8,7 @@ const submit = document.querySelector('#submit');
 const refresh = document.querySelector('#refresh');
 
 // submit the score to the api
-submit.addEventListener('submit', (e) => {
+submit.addEventListener('click', (e) => {
   e.preventDefault();
   newScore();
 });
