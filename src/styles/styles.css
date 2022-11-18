@@ -72,7 +72,7 @@ input {
 .btn {
   cursor: pointer;
   background-color: #6c64d3;
-  width: 50%;
+  width: 100px;
   color: #f5f7f7;
   font-weight: 500;
   border: 1px solid #6c64d3;
