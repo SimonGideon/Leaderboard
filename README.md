@@ -5,6 +5,8 @@
 # Leaderboard 🏢
 
 This Project Creates displays scores from an API obtain on a game played.
+## Live preview
+[Live](https://simongideon.github.io/Leaderboard/dist/)
 
 ## 🗼Built With
 
